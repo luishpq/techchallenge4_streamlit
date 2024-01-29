@@ -4,7 +4,7 @@ from libraries import *
 ########## CONFIGURAÇÃO ##############
 st.set_page_config(page_icon=":chart:", layout='centered', page_title="Conclusão")
 
-image = Image.open('src\img\industry-oil-gas_2.jpg')
+image = Image.open('src/img/industry-oil-gas_2.jpg')
 st.image(image)
 
 with open("src/css/style.css") as i:

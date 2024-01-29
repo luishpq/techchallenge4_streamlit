@@ -192,11 +192,11 @@ with aba1:
     coluna3, coluna4 = st.columns(2)
 
     with coluna3:
-        image_acf = Image.open('src\img\ACF.png')
+        image_acf = Image.open('src/img/ACF.png')
         st.image(image_acf)
 
     with coluna4:
-        image_pacf = Image.open('src\img\PACF.png')
+        image_pacf = Image.open('src/img/PACF.png')
         st.image(image_pacf)
 
     st.markdown('''
@@ -327,7 +327,7 @@ with aba2:
                 
     ''')
 
-    image_naive = Image.open(r'src\img\Naive1dia.png')
+    image_naive = Image.open(r'src/img/Naive1dia.png')
     st.image(image_naive)
     
     st.markdown('''
@@ -336,7 +336,7 @@ with aba2:
                 
     ''')
 
-    image_naive = Image.open(r'src\img\Naive30dias.png')
+    image_naive = Image.open(r'src/img/Naive30dias.png')
     st.image(image_naive)
 
     st.markdown('''
@@ -407,7 +407,7 @@ with aba3:
     with coluna4:
         st.metric('R2:',round(0.98,2))
 
-    image_arima = Image.open(r'src\img\Arima1dia312.png')
+    image_arima = Image.open(r'src/img/Arima1dia312.png')
     st.image(image_arima)
 
     st.markdown('''
@@ -427,7 +427,7 @@ with aba3:
     with coluna4:
         st.metric('R2:',round(0.78,2))
 
-    image_arima = Image.open(r'src\img\Arima30dias312.png')
+    image_arima = Image.open(r'src/img/Arima30dias312.png')
     st.image(image_arima)
 
     
