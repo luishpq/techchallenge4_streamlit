@@ -152,7 +152,7 @@ Além destes, porém, um dos principais fatores que mais impactam a variação d
 
 No mesmo artigo os autores ressaltam que essa variável de "mercado financeiro" passa a atenuar a influência de oferta e demanda para esse mercado. 
 
-É possível confirmar essa informação anterior pelo gráfico abaixo, com a informação de Ofera/Demanda e Preço do Barril de Petróleo. Enquanto a Oferta/Demanda estão correlacionados, o preço por si só varia bastante, apesar de ainda estar diretamente relacionado com a oferta/demana em situação de maior estresse, como 2008 (crise financeira nos EUA), 2016 (crise geopolítica) e 2020 (crise da covid-19)                  
+É possível confirmar essa informação anterior pelo gráfico abaixo, com a informação de Oferta/Demanda e Preço do Barril de Petróleo. Enquanto a Oferta/Demanda estão correlacionados, o preço por si só varia bastante, apesar de ainda estar diretamente relacionado com a oferta/demana em situação de maior estresse, como 2008 (crise financeira nos EUA), 2016 (crise geopolítica) e 2020 (crise da covid-19)                  
 ''')
 
 oferta_select = st.checkbox('Oferta de Petróleo', value = True)

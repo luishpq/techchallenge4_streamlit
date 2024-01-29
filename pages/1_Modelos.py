@@ -68,7 +68,7 @@ with aba1:
     ---
 
     Ao realizar a modelagem de séries temporais para prever os preços do petróleo, é essencial realizar várias análises exploratórias e ferramentas antes de escolher e ajustar um modelo. 
-    Para avaliarmos melhor a melhor forma de montar o modelo utilizaremos Seasonal Decompose, ADF Test, ACF e PACF.
+    Para avaliarmos a melhor forma de montar o modelo utilizaremos Seasonal Decompose, ADF Test, ACF e PACF.
                             
     ## Seasonal Decompose
     
