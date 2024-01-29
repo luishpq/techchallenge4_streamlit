@@ -74,7 +74,10 @@ df.index = pd.to_datetime(df.index)
 
 
 
-df_oil = pd.read_excel('Consolidated-Dataset-Narrow-format.xlsx')
+#df_oil = pd.read_excel('Consolidated-Dataset-Narrow-format.xlsx')
+df_oil = pd.read_csv('Consolidated-Dataset-Narrow-format.csv', delimiter=';')
+df_oil['Value'] = df_oil['Value'].str.replace(',', '.').astype(float)
+
 #Correção base de dados
 
 cod_paises = pd.read_csv('countries_codes_and_coordinates.csv')
