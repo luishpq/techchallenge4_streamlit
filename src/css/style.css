@@ -1,17 +1,16 @@
 body {
     color: #fffffff3;
-    background-color: #4B8BBE;
 }
 h1 {
     color: #e61859;
     text-align: center;
 }
 h2 {
-    color: #306998;
+    color: #e61859;
 }
 h3 {
-    color: #E3A15D;
+    color: #0a0061;
 }
 p{
-    text-indent: 40px;
+    text-indent: 35x;
 }
